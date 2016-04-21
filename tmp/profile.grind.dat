@@ -1,0 +1,350 @@
+events: wall_time
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=IO#write
+0 30
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=Fixnum#to_s
+0 4
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=IO#puts
+0 8
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 10
+10 4
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=IO#write
+calls=2 10
+10 30
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=Kernel#puts
+0 8
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=IO#puts
+calls=1 10
+10 42
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=Fixnum#<=>
+0 73176
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+fn=Range#include?
+0 101098
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 3
+3 1
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 2
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8 3
+3 1
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16 3
+3 2
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32 3
+3 7
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=64 3
+3 13
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=128 3
+3 16
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=256 3
+3 31
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=512 3
+3 75
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=1024 3
+3 152
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2048 3
+3 304
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4096 3
+3 614
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8192 3
+3 1139
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16380 3
+3 2390
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32400 3
+3 4769
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=59652 3
+3 9088
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=91276 3
+3 13678
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=105332 3
+3 15876
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=87112 3
+3 13180
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=50464 3
+3 7745
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=20144 3
+3 3095
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=5404 3
+3 836
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=928 3
+3 146
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=92 3
+3 14
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 1
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+fn=Object#fib
+2 3
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1 3
+3 7
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 314347
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 2
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4 4
+4 314343
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4 3
+3 7
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8 4
+4 314332
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8 3
+3 6
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16 4
+4 314319
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16 3
+3 11
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=32 4
+4 314291
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=32 3
+3 26
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=64 4
+4 314244
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=64 3
+3 50
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=128 4
+4 314142
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=128 3
+3 95
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=256 4
+4 313960
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=256 3
+3 179
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=512 4
+4 313589
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=512 3
+3 379
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1024 4
+4 312836
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1024 3
+3 738
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2048 4
+4 311303
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2048 3
+3 1492
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4096 4
+4 308198
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4096 3
+3 2830
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8190 4
+4 302141
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8190 3
+3 5717
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16200 4
+4 289997
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16200 3
+3 11415
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=29826 4
+4 266591
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=29826 3
+3 21260
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=45638 4
+4 225073
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=45638 3
+3 32712
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=52666 4
+4 164481
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=52666 3
+3 37877
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=43556 4
+4 97976
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=43556 3
+3 31402
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=25232 4
+4 45056
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=25232 3
+3 18300
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=10072 4
+4 15358
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=10072 3
+3 7385
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2702 4
+4 3722
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2702 3
+3 1991
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=464 4
+4 601
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=464 3
+3 353
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=46 4
+4 58
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=46 3
+3 38
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 3
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 2
+
+fl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+fn=Global#[No method]
+10 29
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1 10
+10 314357
+cfl=/Users/colinosborn/Turing/Mod1/performance_of_code/ruby_runtime
+cfn=Kernel#puts
+calls=1 10
+10 50
+

@@ -1,0 +1,66 @@
+digraph "Profile" {
+labelloc=t;
+labeljust=l;
+subgraph "Thread 70157296990760" {
+70157297320020 [label="[No method]\n(100%)"];
+70157297320020 -> 70157297320000 [label="1/242785" fontsize=10 fontcolor="#666666"];
+70157297320020 -> 70157297623000 [label="1/1" fontsize=10 fontcolor="#666666"];
+70157297320000 [label="fib\n(100%)"];
+70157297320000 -> 70157297319960 [label="242785/242785" fontsize=10 fontcolor="#666666"];
+70157297320000 -> 70157297320000 [label="242784/242785" fontsize=10 fontcolor="#666666"];
+70157297319960 [label="include?\n(55%)"];
+70157297319960 -> 70157297319940 [label="485570/485570" fontsize=10 fontcolor="#666666"];
+70157297319940 [label="<=>\n(23%)"];
+70157297623000 [label="puts\n(0%)"];
+70157297623000 -> 70157297622980 [label="1/1" fontsize=10 fontcolor="#666666"];
+70157297622980 [label="puts\n(0%)"];
+70157297622980 -> 70157297622940 [label="2/2" fontsize=10 fontcolor="#666666"];
+70157297622980 -> 70157297622960 [label="1/1" fontsize=10 fontcolor="#666666"];
+70157297622940 [label="write\n(0%)"];
+70157297622960 [label="to_s\n(0%)"];
+}
+subgraph cluster_70157297072680 {
+label = "Global";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297320020;
+}
+subgraph cluster_70157297072140 {
+label = "Object";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297320000;
+}
+subgraph cluster_70157297071640 {
+label = "Range";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297319960;
+}
+subgraph cluster_70157297071120 {
+label = "Fixnum";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297319940;
+70157297622960;
+}
+subgraph cluster_70157297070740 {
+label = "Kernel";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297623000;
+}
+subgraph cluster_70157297069360 {
+label = "IO";
+fontcolor = "#666666";
+fontsize = 16;
+color = "#666666";
+70157297622980;
+70157297622940;
+}
+}

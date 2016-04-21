@@ -9,7 +9,7 @@ require 'benchmark'
 
 # ====== Benchmark Skeleton ======
 Benchmark.bm do |performance|
-  performance.report('thing1') { "stuff" }
+  performance.report('Combining Strings') { "stuff" }
   performance.report('thing2') { "stuff" }
   performance.report('thing3') { "stuff" }
 end
@@ -170,7 +170,7 @@ end
 # end
 
 # ============== Conditional vs. Rescue ==============
-#class Stuff
+# class Stuff
 #  def using_rescue
 #    self.nonexistant_method
 #    rescue NoMethodError
@@ -178,7 +178,7 @@ end
 #  def using_conditional
 #    respond_to?(:nonexistant_method) ? self.nonexistant_method : nil
 #  end
-#end
+# end
 
 # stuff = Stuff.new
 # x = 1_000_000
